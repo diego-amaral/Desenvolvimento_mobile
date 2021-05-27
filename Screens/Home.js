@@ -9,9 +9,9 @@ export default function Home(props) {
 
     return (
         <SafeAreaView style={styles.container}>
-            <Text>Primeira Página</Text>
+            <Text>Tela Home</Text>
             <Button
-                title="Ir para segunda Tela"
+                title="Clique aqui para ver os videos"
                 onPress={segundaTela}
             />
         </SafeAreaView>
