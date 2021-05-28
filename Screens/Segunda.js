@@ -7,6 +7,7 @@ export default function Segunda(props) {
     const visualizarMapa = () => {
         props.navigation.navigate("Terceira")
     }
+
     const [playing, setPlaying] = useState(false);
 
     const onStateChange = useCallback((state) => {
@@ -31,7 +32,7 @@ export default function Segunda(props) {
                     videoId={"zDodZ2Oc4XA"}
                     onChangeState={onStateChange}
                 />
-                
+
                 <Text>Video 2</Text>
                 <YoutubePlayer
                     height={300}
@@ -39,7 +40,7 @@ export default function Segunda(props) {
                     videoId={"oPIgMoTTQsQ"}
                     onChangeState={onStateChange}
                 />
-                
+
                 <Button
                     title="Visualisar o mapa"
                     onPress={visualizarMapa}
