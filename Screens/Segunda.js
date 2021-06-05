@@ -20,6 +20,7 @@ export default function Segunda(props) {
     const togglePlaying = useCallback(() => {
         setPlaying((prev) => !prev);
     }, []);
+    
 
     return (
         <SafeAreaView style={styles.container}>

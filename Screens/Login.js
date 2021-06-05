@@ -40,6 +40,7 @@ export default function Login(props) {
                 onChangeText={onChangePassword}
                 value={password}
                 placeholder="Senha"
+                secureTextEntry={true}
 
             />
             <Button
