@@ -36,14 +36,14 @@ export default function Cadastro(props) {
                 style={styles.input}
                 onChangeText={onChangeNome}
                 value={nome}
-                placeholder="nome"
+                placeholder="  nome"
             />
             <Text style={styles.texto2}> Usuario</Text>
             <TextInput
                 style={styles.input}
                 onChangeText={onChangeEmail}
                 value={email}
-                placeholder="email"
+                placeholder="  email"
 
             />
             <Text style={styles.texto2}>Senha</Text>
@@ -51,7 +51,7 @@ export default function Cadastro(props) {
                 style={styles.input}
                 onChangeText={onChangePassword}
                 value={password}
-                placeholder="Senha"
+                placeholder="  Senha"
                 secureTextEntry={true}
 
             />

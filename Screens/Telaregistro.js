@@ -4,7 +4,7 @@ import { Button } from "react-native-elements";
 
 
 
-export default function Telaatividades(props) {
+export default function Telaregistro(props) {
 
     const Telaatividades = () => {
         props.navigation.navigate("Telaatividades")
@@ -20,7 +20,7 @@ export default function Telaatividades(props) {
     return (
         <SafeAreaView style={styles.container}>
 
-            <Text style={styles.texto1}>Cadastro de Usuário </Text>
+            <Text style={styles.texto1}>Registro de Atividades </Text>
             <Image
                 style={styles.atleta1}
                 source={{
@@ -111,14 +111,14 @@ const styles = StyleSheet.create({
         width: 50,
         height: 50,
         marginTop: -50,
-        marginLeft: 290,
+        marginLeft: 310,
         borderRadius: 5,
     },
     atleta2: {
         width: 50,
         height: 50,
         marginTop: -50,
-        marginRight: 290,
+        marginRight: 310,
         borderRadius: 5,
     },
 
